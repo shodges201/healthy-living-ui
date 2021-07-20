@@ -1,0 +1,5 @@
+<mat-card class="login-button-container">
+    <h2>Login</h2>
+    <button mat-raised-button color="accent" *ngIf="isAuthenticated === false" (click)="authService.loginWithRedirect()">Log in</button>
+    <button mat-raised-button color="accent" *ngIf="isAuthenticated === true" (click)="logout()">Log out</button>
+</mat-card>

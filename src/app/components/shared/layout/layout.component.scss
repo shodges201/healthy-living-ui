@@ -1,0 +1,14 @@
+.toolbar{
+    height: 64px;
+}
+.sidenav-container{
+    height: calc(100vh - 64px);
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.hoverable:hover {
+    cursor: pointer;
+}

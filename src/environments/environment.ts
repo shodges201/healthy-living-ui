@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  API_BASE_URL: "",
+  API_PREFIX: '',
+  OKTA_BASE_URL: "",
+  OKTA_CLIENT_ID: "",
+  OKTA_ISSUER: ""
 };
 
 /*
